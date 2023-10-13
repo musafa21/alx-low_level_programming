@@ -1,21 +1,17 @@
 #include "main.h"
 
-/**print_alphabet_x10(void)
- * Return: void
+/**
+ * print_alphabet - calls the main function
+ * Return: always 0
  */
 
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
 	char c;
-	int i=0;
 
-	while (i<=9)
-	{
-	for (c = 'a'; c <='z'; c++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
 	}
 		_putchar('\n');
-		i++;
-	}
 }
