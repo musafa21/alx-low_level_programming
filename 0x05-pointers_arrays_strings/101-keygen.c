@@ -10,15 +10,15 @@
 int main(void)
 {
 	int i, sum = 0;
-	char password[56];
-	int target = 3000;
-
+	char password[65];
+	int target = 2772;
+	
 	srand((unsigned int)time(NULL));
-
-	for (i = 0; i < 94; i++)
+	
+	for (i = 0; i < 64; i++)
 	{
-		password[i] = (rand() % 102) + 43;
-
+		password[i] = (rand() % 94) + 33;
+		
 		if ((sum + password[i]) > target)
 		{
 			password[i] = target - sum;
@@ -26,7 +26,7 @@ int main(void)
 		}
 		sum += password[i];
 	}
-	password[56] = '\0';
+	password[64] = '\0';
 	printf("%s\n", password);
 	return 0;
 }
