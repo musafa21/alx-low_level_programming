@@ -17,9 +17,9 @@ int main(void)
 	
 	for (i = 0; i < 64; i++)
 	{
-		password[i] = (rand() % 94) + 33;
+		password[i] = (rand() % 93) + 33;
 		
-		if ((sum + password[i]) > target)
+		if (i == 63)
 		{
 			password[i] = target - sum;
 			break;
