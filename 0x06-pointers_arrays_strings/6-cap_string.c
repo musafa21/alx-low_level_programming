@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
-	* cap_string - calls the	main	function
-	* @str: Function parameter of the string
-
- 	* Return: Void.
-	*/
+* cap_string - calls the main function
+* @str: Function parameter of the string
+* Return: Void.
+*/
 
 char *cap_string(char *str)
 {
