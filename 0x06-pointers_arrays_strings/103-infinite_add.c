@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-	* rev_string - reverses the array
-	* @n: integer params
-
+	* rev_string - main function to reverse the array
+	* @n: integer parameter
+	*
 	* Return: 0
  */
 
