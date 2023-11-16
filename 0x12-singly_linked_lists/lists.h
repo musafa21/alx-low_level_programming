@@ -1,12 +1,9 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-/****************** Std library *************************************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-
-/***************** Structure ****************************************/
 
 /**
  * struct list_s - singly linked list
