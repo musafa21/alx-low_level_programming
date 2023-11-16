@@ -1,5 +1,6 @@
 #include "lists.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * list_len - prints the number of elements in a linked list
